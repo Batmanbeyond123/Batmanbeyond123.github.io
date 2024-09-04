@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgba(86, 50, 182, 0.468);
     flex: 1;
     margin: 0;
 }
@@ -32,7 +32,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #8440b1d6;
 }
 
 /* main container area beneath menu */
@@ -53,8 +53,33 @@ main {
 }
 
 /* portfolio styles */
+.content h1 {
+    color: rgb(163, 36, 36);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #b79f9f;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #605555;
+}
+
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(30, 146, 43) ridge;
     padding: 8px;
 }
 h2, h3 {
